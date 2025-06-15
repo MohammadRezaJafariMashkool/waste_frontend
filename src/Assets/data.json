@@ -14,7 +14,7 @@
     "updated_at": "2025-04-07T13:16:52.813",
     "allowed_on_road": true,
     "allows_heavy_waste": true,
-    "recommended": true
+    "recommended": false
   },
   {
     "id": 17934,
@@ -48,7 +48,7 @@
     "updated_at": "2025-04-07T13:16:53.171",
     "allowed_on_road": true,
     "allows_heavy_waste": true,
-    "recommended": false
+    "recommended": true
   },
   {
     "id": 17936,
