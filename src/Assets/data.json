@@ -13,7 +13,8 @@
     "created_at": "2025-04-03T13:51:46.897146",
     "updated_at": "2025-04-07T13:16:52.813",
     "allowed_on_road": true,
-    "allows_heavy_waste": true
+    "allows_heavy_waste": true,
+    "recommended": true
   },
   {
     "id": 17934,
@@ -29,7 +30,8 @@
     "created_at": "2025-04-03T13:51:46.897146",
     "updated_at": "2025-04-07T13:16:52.992",
     "allowed_on_road": true,
-    "allows_heavy_waste": true
+    "allows_heavy_waste": true,
+    "recommended": false
   },
   {
     "id": 17935,
@@ -45,7 +47,8 @@
     "created_at": "2025-04-03T13:51:46.897146",
     "updated_at": "2025-04-07T13:16:53.171",
     "allowed_on_road": true,
-    "allows_heavy_waste": true
+    "allows_heavy_waste": true,
+    "recommended": false
   },
   {
     "id": 17936,
@@ -61,7 +64,8 @@
     "created_at": "2025-04-03T13:51:46.897146",
     "updated_at": "2025-04-07T13:16:53.339",
     "allowed_on_road": false,
-    "allows_heavy_waste": false
+    "allows_heavy_waste": false,
+    "recommended": false
   },
   {
     "id": 17937,
@@ -77,7 +81,8 @@
     "created_at": "2025-04-03T13:51:46.897146",
     "updated_at": "2025-04-07T13:16:53.516",
     "allowed_on_road": false,
-    "allows_heavy_waste": false
+    "allows_heavy_waste": false,
+    "recommended": false
   },
   {
     "id": 17938,
@@ -93,7 +98,8 @@
     "created_at": "2025-04-03T13:51:46.897146",
     "updated_at": "2025-04-07T13:16:53.69",
     "allowed_on_road": false,
-    "allows_heavy_waste": false
+    "allows_heavy_waste": false,
+    "recommended": false
   },
   {
     "id": 17939,
@@ -109,7 +115,8 @@
     "created_at": "2025-04-03T13:51:46.897146",
     "updated_at": "2025-04-07T13:16:53.876",
     "allowed_on_road": false,
-    "allows_heavy_waste": false
+    "allows_heavy_waste": false,
+    "recommended": false
   },
   {
     "id": 15124,
@@ -125,7 +132,8 @@
     "created_at": "2025-04-03T13:51:40.344435",
     "updated_at": "2025-04-07T13:16:52.434",
     "allowed_on_road": false,
-    "allows_heavy_waste": true
+    "allows_heavy_waste": true,
+    "recommended": false
   },
   {
     "id": 15125,
@@ -141,6 +149,7 @@
     "created_at": "2025-04-03T13:51:40.344435",
     "updated_at": "2025-04-07T13:16:52.603",
     "allowed_on_road": false,
-    "allows_heavy_waste": false
+    "allows_heavy_waste": false,
+    "recommended": false
   }
 ]
