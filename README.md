@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+🛠 Project Enhancements & UI Improvements
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project has been significantly improved to enhance user experience, responsiveness, and performance in the product browsing and filtering interface.
 
-Currently, two official plugins are available:
+✅ Key Features Added
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. 🧰 Advanced Filtering & Sorting Panel
 
-## Expanding the ESLint configuration
+ Introduced a filters section that allows users to:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+   Filter skips by availability (e.g., on-road allowed).
+   Filter by price range using a dynamic slider.
+   Sort products by price, popularity, or size.
+ The filter panel is now:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   Sticky to the top of the viewport to prevent confusion during scrolling.
+   Responsive across all devices (mobile, tablet, desktop).
+   Built with Framer Motion to provide smooth animations when filters open/close or results change.
+   Equipped with a debounced filter delay for a polished transition experience.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. 🎨 Enhanced Item Cards Design
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+ Improved the item display with:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+   Card hover animations including blue shadows and scaling effects for visual feedback.
+   Swapped the positions of price and hire period for better emphasis on key information.
+   Added an optional "⭐ Recommended" badge in the data model to give featured products greater visibility.
+   Integrated Framer Motion animations for smooth entry/exit of items on load and filter changes.
+
+3. 📱 Responsive and Accessible Design
+
+ Limited visible items to 6 per page to avoid overwhelming users.
+ Added a "Show More" button to load additional items incrementally.
+ Ensured consistent image aspect ratios (`4:3`) to maintain layout integrity across devices.
+ Disabled selection buttons for unavailable skips, updated the text to `Unavailable`, and added:
+
+   A tooltip explaining why the item is disabled:
+    “This skip cannot be placed on public roads due to local council restrictions.”
+
+4. 📏 Mobile Optimizations
+
+ Reworked the step progress UI for mobile devices to improve visibility and interaction.
+ Optimized font sizes and layout spacing for smaller viewports to ensure usability and readability.
+
+---
+
+ 📦 Tech Stack
+
+ React + Tailwind CSS
+ Framer Motion for UI animation
+ Supabase for media assets
+ Vite + SWC for fast bundling
